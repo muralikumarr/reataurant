@@ -1,0 +1,100 @@
+.container-header{
+    display: flex;
+    width: 100%;
+    height: 130px;
+    background: white;
+}
+
+.a-logo{
+    cursor: pointer;
+}
+
+.logo1{
+    height: 86px;
+    margin-top: 22px;
+    padding-left: 38px;
+}
+
+.first{
+    display: flex;
+    width: 100%;
+    height: 130px;
+}
+
+.nav{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 140px;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+.li-header{
+    padding-top: 9px;
+    display: inline;
+    margin: 0 12px;
+    font-family: "Fairplex Wide";
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(79, 70, 70);
+    text-decoration: none !important;
+}
+
+.li-header-li{
+    display: inline;
+    margin: 0 12px;
+    font-family: "Fairplex Wide";
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(79, 70, 70);
+}
+
+.li-div{
+    background: rgb(227, 90, 1);
+    display: inline;
+    height: 1cm;
+    border: none;
+    font-family: "Fairplex Wide";
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1140px){
+    .logo1{
+       justify-content: center;
+    }
+    .nav{
+        float: none;
+    }
+}
+
+#id1{
+text-decoration: none !important;
+color: rgb(79, 70, 70);
+}
+
+#id2{
+text-decoration: none !important;
+color: rgb(79, 70, 70);
+}
+
+#id3{
+    text-decoration: none !important;
+    color: rgb(79, 70, 70);
+}
+
+#id4{
+    text-decoration: none !important;
+    color: rgb(79, 70, 70);
+}
+
+#id5{
+    text-decoration: none !important;
+    color: rgb(79, 70, 70);
+}
+
+#id6{
+    text-decoration: none !important;
+    color: rgb(79, 70, 70);
+    }
